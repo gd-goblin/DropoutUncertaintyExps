@@ -149,7 +149,7 @@ def train(args):
         for dropout_rate in dropout_rates:
             for tau in tau_values:
                 print('Grid search step: Tau: ' + str(tau) + ' Dropout rate: ' + str(dropout_rate))
-                model = DropNet(X_train=)
+                # model = DropNet(X_train=)
                 # network = net.net(X_train, y_train, ([int(n_hidden)] * num_hidden_layers),
                 #                   normalize=True, n_epochs=int(n_epochs * epochs_multiplier), tau=tau,
                 #                   dropout=dropout_rate)
