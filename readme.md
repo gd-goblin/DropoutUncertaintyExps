@@ -1,3 +1,5 @@
+Update test
+
 This is the code used for the uncertainty experiments in the paper ["Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning" (2015)](http://www.cs.ox.ac.uk/people/yarin.gal/website/publications.html#Gal2015Dropout), with a few adaptions following recent (2018) feedback from the community (many thanks to @capybaralet for spotting some bugs, and @omegafragger for restructuring the code). This code is based on the code by José Miguel Hernández-Lobato used for his paper "Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks". The datasets supplied here are taken from the UCI machine learning repository. Note the data splits used in these experiments (which are identical to the ones used in Hernández-Lobato's code). Because of the small size of the data, if you split the data yourself you will most likely get different and non-comparable results to the ones here.
 
 **Update (2018)**
